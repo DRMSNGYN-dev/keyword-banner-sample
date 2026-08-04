@@ -1,17 +1,23 @@
 {
   "靴": {
-    "title": "シューズバナー",
-    "emoji": "👟",
+    "title": "シューズ",
+    "description": "人気スニーカー特集",
+    "image": "images/shoe.jpg",
+    "url": "https://example.com/shoes",
     "background": "#87CEEB"
   },
   "バッグ": {
-    "title": "バッグバナー",
-    "emoji": "👜",
+    "title": "バッグ",
+    "description": "新作バッグコレクション",
+    "image": "images/bag.jpg",
+    "url": "https://example.com/bag",
     "background": "#FFD700"
   },
   "帽子": {
-    "title": "帽子バナー",
-    "emoji": "🧢",
+    "title": "帽子",
+    "description": "人気キャップ特集",
+    "image": "images/cap.jpg",
+    "url": "https://example.com/cap",
     "background": "#D8B4FE"
   }
 }

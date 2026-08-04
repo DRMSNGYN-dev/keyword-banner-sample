@@ -22,5 +22,28 @@ input{
   max-width: 100%;
   height: auto;
 }
+#banner img{
+    width:400px;
+    max-width:100%;
+    border-radius:10px;
+    display:none;
+    margin:20px auto;
+}
 
+#banner a{
+    display:none;
+    margin-top:20px;
+    font-size:20px;
+    text-decoration:none;
+    color:#0066cc;
+    font-weight:bold;
+}
+
+#banner h2{
+    margin-top:0;
+}
+
+#banner p{
+    font-size:18px;
+}
 }
