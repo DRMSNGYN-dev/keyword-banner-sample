@@ -1,0 +1,19 @@
+body{
+    font-family:sans-serif;
+    margin:40px;
+}
+
+input{
+    width:300px;
+    padding:10px;
+    font-size:16px;
+}
+
+#banner{
+    margin-top:20px;
+    padding:30px;
+    border-radius:10px;
+    background:#eee;
+    font-size:24px;
+    text-align:center;
+}
