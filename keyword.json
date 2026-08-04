@@ -1,0 +1,17 @@
+{
+  "靴": {
+    "title": "シューズバナー",
+    "emoji": "👟",
+    "background": "#87CEEB"
+  },
+  "バッグ": {
+    "title": "バッグバナー",
+    "emoji": "👜",
+    "background": "#FFD700"
+  },
+  "帽子": {
+    "title": "帽子バナー",
+    "emoji": "🧢",
+    "background": "#D8B4FE"
+  }
+}
