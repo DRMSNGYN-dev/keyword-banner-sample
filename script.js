@@ -25,9 +25,33 @@ fetch("keyword.json")
 
 input.addEventListener("input", () => {
   const word = input.value.trim();
-  const item = keywordData[word];
+
+if (word === "") {
+  banner.classList.remove("no-result");
+
+  title.textContent = "";
+  description.textContent = "";
+
+  bannerImage.src = "";
+  bannerImage.alt = "";
+  bannerImage.style.display = "none";
+
+  bannerLink.removeAttribute("href");
+  bannerLink.style.display = "none";
+
+  banner.style.background = "#eee";
+  return;
+}
+
+const item = Object.values(keywordData).find((product) => {
+  return product.keywords.some((keyword) => {
+    return keyword.includes(word);
+  });
+});
 
   if (item) {
+    banner.classList.remove("no-result");
+
     title.textContent = item.title;
     description.textContent = item.description;
 
@@ -42,15 +66,16 @@ input.addEventListener("input", () => {
     return;
   }
 
-  title.textContent = "";
-  description.textContent = "";
+banner.classList.add("no-result");
+title.textContent = "該当する商品が見つかりません";
+description.textContent = "「靴」「バッグ」「帽子」のいずれかを入力してください。";
 
-  bannerImage.src = "";
-  bannerImage.alt = "";
-  bannerImage.style.display = "none";
+bannerImage.src = "";
+bannerImage.alt = "";
+bannerImage.style.display = "none";
 
-  bannerLink.removeAttribute("href");
-  bannerLink.style.display = "none";
+bannerLink.removeAttribute("href");
+bannerLink.style.display = "none";
 
-  banner.style.background = "#eee";
+banner.style.background = "#eee";
 });

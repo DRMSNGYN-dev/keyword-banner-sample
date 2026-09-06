@@ -217,3 +217,17 @@ input{
     height: auto;
   }
 }
+
+#banner.no-result {
+  display: block;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#banner.no-result #title {
+  margin-bottom: 15px;
+}
+
+#banner.no-result #description {
+  margin: 0;
+}

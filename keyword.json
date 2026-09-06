@@ -1,23 +1,26 @@
 {
-  "靴": {
-    "title": "シューズ",
-    "description": "人気スニーカー特集",
-    "image": "images/shoe.jpg",
-    "url": "shoe.html",
-    "background": "#87CEEB"
-  },
+"靴": {
+  "title": "シューズ",
+  "description": "人気スニーカー特集",
+  "image": "images/shoe.jpg",
+  "url": "shoe.html",
+  "background": "#87CEEB",
+  "keywords": ["靴", "くつ", "シューズ", "スニーカー"]
+},
 "バッグ": {
   "title": "バッグ",
   "description": "新作バッグコレクション",
   "image": "images/bag.jpg",
   "url": "bag.html",
-  "background": "#FFD700"
+  "background": "#FFD700",
+  "keywords": ["バッグ", "かばん", "鞄"]
 },
-  "帽子": {
-    "title": "帽子",
-    "description": "人気キャップ特集",
-    "image": "images/cap.jpg",
-    "url": "cap.html",
-    "background": "#D8B4FE"
-  }
+"帽子": {
+  "title": "帽子",
+  "description": "人気キャップ特集",
+  "image": "images/cap.jpg",
+  "url": "cap.html",
+  "background": "#D8B4FE",
+  "keywords": ["帽子", "ぼうし", "キャップ"]
+}
 }
