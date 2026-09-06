@@ -1,4 +1,4 @@
-const input = document.getElementById("keyword");
+const input = document.getElementById("keywordInput");
 const banner = document.getElementById("banner");
 const title = document.getElementById("title");
 const description = document.getElementById("description");

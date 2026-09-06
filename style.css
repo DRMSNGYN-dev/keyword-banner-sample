@@ -61,3 +61,159 @@ input{
   display: block;
   margin-bottom: 30px;
 }
+
+.search-area {
+  max-width: 800px;
+  margin: 60px auto 30px;
+  text-align: center;
+}
+
+.search-area h1 {
+  margin-bottom: 10px;
+}
+
+.search-area p {
+  margin-bottom: 20px;
+}
+
+.search-area input {
+  width: 100%;
+  max-width: 500px;
+  padding: 14px 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#banner {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#bannerImage {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+#title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#bannerLink {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+#bannerLink:hover {
+  opacity: 0.8;
+}
+
+/* PC：検索結果を横型カードにする */
+#banner {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  grid-template-areas:
+    "image title"
+    "image description"
+    "image link";
+  gap: 10px 40px;
+  align-items: center;
+  text-align: left;
+  padding: 40px;
+}
+
+#bannerImage {
+  grid-area: image;
+  width: 100%;
+  max-width: 320px;
+  margin: 0;
+}
+
+#title {
+  grid-area: title;
+  margin: 0;
+}
+
+#description {
+  grid-area: description;
+  margin: 0;
+}
+
+#bannerLink {
+  grid-area: link;
+  justify-self: start;
+  margin-top: 10px;
+}
+
+/* スマホ：縦型に戻す */
+@media (max-width: 700px) {
+  #banner {
+    display: block;
+    margin: 20px 15px;
+    padding: 25px;
+    text-align: center;
+  }
+
+  #bannerImage {
+    margin: 20px auto;
+  }
+
+  #bannerLink {
+    margin-top: 20px;
+  }
+}
+
+/* スマホ表示の微調整 */
+@media (max-width: 700px) {
+
+  .search-area {
+    margin: 40px 20px 20px;
+  }
+
+  .search-area h1 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .search-area p {
+    font-size: 16px;
+  }
+
+  .search-area input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #banner {
+    margin: 25px 20px;
+    padding: 25px 20px;
+  }
+
+  #title {
+    font-size: 26px;
+  }
+
+  #bannerImage {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
