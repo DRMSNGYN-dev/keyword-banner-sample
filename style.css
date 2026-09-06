@@ -16,12 +16,14 @@ input{
     background:#eee;
     font-size:24px;
     text-align:center;
+}
 
 #bannerImage {
   display: none;
   max-width: 100%;
   height: auto;
 }
+
 #banner img{
     width:400px;
     max-width:100%;
@@ -46,4 +48,16 @@ input{
 #banner p{
     font-size:18px;
 }
+
+.product-detail {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.product-detail img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
 }

@@ -6,13 +6,13 @@
     "url": "https://example.com/shoes",
     "background": "#87CEEB"
   },
-  "バッグ": {
-    "title": "バッグ",
-    "description": "新作バッグコレクション",
-    "image": "images/bag.jpg",
-    "url": "https://example.com/bag",
-    "background": "#FFD700"
-  },
+"バッグ": {
+  "title": "バッグ",
+  "description": "新作バッグコレクション",
+  "image": "images/bag.jpg",
+  "url": "bag.html",
+  "background": "#FFD700"
+},
   "帽子": {
     "title": "帽子",
     "description": "人気キャップ特集",
